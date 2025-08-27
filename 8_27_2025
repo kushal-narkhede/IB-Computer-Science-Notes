@@ -1,3 +1,7 @@
 Java applications need a main method.
 public (acess specifier) static void (return type) main(String[] args) : this is the method signature
 White spaces does not matter in Java.
+.java
+byte ode, output from compiler
+grace hopper names the term bug
+stacktrace shows what code gave the problem to the program
