@@ -1,0 +1,8 @@
+Scores = list of student scores
+highestScore = scores[0]
+For each score in scores:
+  If score > highestScore
+    highestScore = score
+  END IF
+END FOR
+print "The highest score is "  + highestScore 
