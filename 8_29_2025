@@ -6,3 +6,17 @@ For each score in scores:
   END IF
 END FOR
 print "The highest score is "  + highestScore 
+variables have a type, name and a value
+camelCase is the naming convention for naming the variables
+= is the assignment operator
+package com.hillcrest.chapter2;
+
+public class RectangleApp {
+
+    public static void main(String[] args) {
+        String description = "This application builds and describes rectangles.";
+        description = "hi";
+        
+    }
+}
+
