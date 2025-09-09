@@ -5,3 +5,18 @@ short can store up to 65 thousand characters.
 Primitive types live on the stack. 
 8 primitive types in java
 using the key word final makes the value of the variable unchangeable.
+public class CashRegisterApp {
+    public static void main(String[] args) {
+        double amountDue = 13.75;
+
+        int dollars = 10;
+        int quarters = 1;
+        int dimes = 4;
+        int nickels = 17;
+        int pennies = 98;
+
+        double payment = dollars + quarters * 0.25 + dimes * 0.10 + nickels * 0.05 + pennies * 0.01;
+
+        System.out.println(payment);
+    }
+}
