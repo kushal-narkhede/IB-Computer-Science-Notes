@@ -1,4 +1,7 @@
 The maximum value of int is Integer.MAX_VALUE and the minimum value of int is Integer.MIN_VALUE.
 A byte can store from -128 to 127. 0 is included in the positive numbers.
-Float is a single precision floating-point typew, with range of about 10^38 and about 7 significant decimal digits. 
+Float is a single precision floating-point type, with range of about 10^38 and about 7 significant decimal digits. 
 short can store up to 65 thousand characters. 
+Primitive types live on the stack. 
+8 primitive types in java
+using the key word final makes the value of the variable unchangeable.
