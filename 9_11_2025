@@ -1,0 +1,13 @@
+Increment operator ++
+Decrement operator --
+int -> double (👍)
+double -> int (👎) 
+.7f makes it a floating point literal. 
+public class CovertApp {
+    double total = 10;
+    double tax = .70;
+    double totalWithTax = total + tax;
+    int roundedTotal = (int) Math.round(totalWithTax);
+    System.out.println(roundedTotal);
+
+}
