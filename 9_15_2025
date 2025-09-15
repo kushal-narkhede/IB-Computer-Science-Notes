@@ -1,0 +1,16 @@
+If the libraries are outside the java.lang package, we have to import them.
+import java.util.Scanner;
+
+public class InputApp {
+    public static void main(String[] args) {
+        Scanner in = new Scanner(System.in);
+        System.out.print("Please enter a whole number between 1 and 10 : ");
+        int wholeNumber = in.nextInt();
+
+        System.out.println("Give me a floating point value: ");
+        double floatingPoint = in.nextDouble();
+        System.out.println("You entered the whole number: " + wholeNumber);
+        System.out.println("Numbers divided : " + floatingPoint / wholeNumber);
+        
+    }
+}
