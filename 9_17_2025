@@ -1,0 +1,12 @@
+The first character in the array has the index of 0.
+To get the last character, user should do length() - 1;
+public class SubstringApp {
+
+    public static void main(String[] args) {
+        String greeting = "Hello World";
+        String word2 = greeting.substring(6);
+        System.out.println(word2);
+        String word1 = greeting.substring(0, 5);
+        System.out.println(word1);
+    }
+}
